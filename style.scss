@@ -800,20 +800,20 @@ object {
 }
 @font-face {
     font-display: swap;
-    font-family: "Droid Serif-Reg";
+    font-family: "Poppins-Bold-Reg";
     font-weight: 500;
     font-style: normal;
-    src: url("fonts/Droid Serif/DroidSerif-Regular.ttf") format('truetype');
-    src: url("fonts/Droid Serif/DroidSerif-Regular.eot");
-    src: url("fonts/Droid Serif/DroidSerif-Regular.eot?#iefix") format("embedded-opentype");
+    src: url("fonts/Poppins-Bold/DroidSerif-Regular.ttf") format('truetype');
+    src: url("fonts/Poppins-Bold/DroidSerif-Regular.eot");
+    src: url("fonts/Poppins-Bold/DroidSerif-Regular.eot?#iefix") format("embedded-opentype");
 }
 @font-face {
     font-display: swap;
-    font-family: "Droid Serif";
+    font-family: "Poppins-Bold";
     font-weight: 700;
     font-style: normal;
-    src: url("fonts/Droid Serif/DroidSerif-Bold.eot");
-    src: url("fonts/Droid Serif/DroidSerif-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Droid Serif/DroidSerif-Bold.woff") format("woff");
+    src: url("fonts/Poppins-Bold/DroidSerif-Bold.eot");
+    src: url("fonts/Poppins-Bold/DroidSerif-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Poppins-Bold/DroidSerif-Bold.woff") format("woff");
 }
 @font-face {
     font-display: swap;
@@ -870,7 +870,7 @@ h6,
 }
 .h1,
 h1 {
-    font-family: "Droid Serif", sans-serif;
+    font-family: "Poppins-Bold", sans-serif;
     font-size: 60px;
     font-weight: 700;
     line-height: 82px;
@@ -878,7 +878,7 @@ h1 {
 }
 .h2,
 h2 {
-    font-family: "Droid Serif", sans-serif;
+    font-family: "Poppins-Bold", sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 64px;
@@ -886,7 +886,7 @@ h2 {
 }
 .h3,
 h3 {
-    font-family: "Droid Serif", sans-serif;
+    font-family: "Poppins-Bold", sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 1.4;
@@ -894,7 +894,7 @@ h3 {
 }
 .h4,
 h4 {
-    font-family: "Droid Serif", sans-serif;
+    font-family: "Poppins-Bold", sans-serif;
     font-size: 22px;
     font-weight: 700;
     line-height: 1.4;
@@ -2385,7 +2385,7 @@ a.page-numbers:hover {
     margin: 0 0 20px;
     line-height: 1.4;
     font-weight: 700;
-    font-family: "Droid Serif", sans-serif;
+    font-family: "Poppins-Bold", sans-serif;
     font-size: 36px;
 }
 .post-wrapper :last-child {
@@ -2432,7 +2432,7 @@ a.page-numbers:hover {
     margin-top: 30px;
 
     .title {
-      font-family: "Droid Serif", sans-serif;
+      font-family: "Poppins-Bold", sans-serif;
       font-size: 36px;
       font-weight: 700;
       color: #2F2F2F;
@@ -2526,7 +2526,7 @@ a.page-numbers:hover {
     margin: 6px 0 20px;
 
     .title {
-      font-family: "Droid Serif", sans-serif;
+      font-family: "Poppins-Bold", sans-serif;
       font-size: 36px;
       font-weight: 700;
       color: #2F2F2F;
@@ -2644,7 +2644,7 @@ a.page-numbers:hover {
 .related-sample-general a {
     display: block;
     color: #d37a85;
-    font-family: "Droid Serif", sans-serif;
+    font-family: "Poppins-Bold", sans-serif;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2776,11 +2776,11 @@ a.page-numbers:hover {
       line-height: 1.4;
       font-weight: 700;
       margin-bottom: 10px;
-      font-family: 'Droid Serif', serif;
+      font-family: 'Poppins-Bold', serif;
     }
 
     p {
-      font-family: 'Droid Serif-Reg', serif;
+      font-family: 'Poppins-Bold-Reg', serif;
       text-align: center;
       font-weight: 500;
       line-height: 1.4;
@@ -2839,10 +2839,10 @@ a.page-numbers:hover {
   font-size: 16px;
   letter-spacing: 0.03em;
   line-height: 1.4;
-  font-family: 'Droid Serif-Reg', serif;
+  font-family: 'Poppins-Bold-Reg', serif;
   margin-top: 20px;
   span {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Poppins-Bold', serif;
     font-size: 16px;
     letter-spacing: 0;
     margin-left: 4px;
@@ -3031,7 +3031,7 @@ a.page-numbers:hover {
     }
 
     h1 {
-        font-family: 'Droid Serif', serif;
+        font-family: 'Poppins-Bold', serif;
         font-weight: 700;
         margin: 8px auto 0px;
         font-size: 36px;
@@ -3040,7 +3040,7 @@ a.page-numbers:hover {
         color: #000;
     }
     h2 {
-        font-family: 'Droid Serif', serif;
+        font-family: 'Poppins-Bold', serif;
         font-weight: 700;
         margin: 20px auto 0;
         font-size: 16px;
@@ -4498,7 +4498,7 @@ and (orientation:portrait) */
     padding: 25px 0 25px;
 
     &__title {
-      font-family: "Droid Serif";
+      font-family: "Poppins-Bold";
       font-size: 22px;
       line-height: 26px;
       font-weight: 700;
@@ -4619,7 +4619,7 @@ and (orientation:portrait) */
         }
 
         &__title {
-            font-family: "Droid Serif";
+            font-family: "Poppins-Bold";
             font-weight: 700;
             font-size: 36px;
             line-height: 50px;
