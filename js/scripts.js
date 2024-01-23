@@ -251,10 +251,10 @@ animateIn:!1},e.prototype.swap=function(){if(1===this.core.settings.items&&a.sup
     $("#sample-categories-button").on("click", function () {
         $("#sample-categories, #sample-categories-button").addClass("active"), $("#essay-categories, #essay-categories-button").removeClass("active");
     }),
-    $(".read-more").on("click", function () {
-        $(".category-content-inner").toggleClass("full");
-        $(".read-more").hide();
-    }),
+    // $(".read-more").on("click", function () {
+    //     $(".category-content-inner").toggleClass("full");
+    //     $(".read-more").hide();
+    // }),
     $("body").hasClass("postid-6619") && $(".search-banner").hide(),
     $(".letter-section .back-to-top, #az-tabs #letters").remove();
 var $document = $(document),
