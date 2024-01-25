@@ -19,7 +19,7 @@ add_filter('the_excerpt', 'highlight_results');
 add_filter('the_title', 'highlight_results');
 ?>
 
-<div class="main-search">
+<div class="main-search main-search--home">
 	<div class="container search-inner">
 		<div class="search-content">
 			<h1 class="search-title">Best Research Paper Samples That Will Inspire You</h1>
@@ -36,15 +36,16 @@ add_filter('the_title', 'highlight_results');
 </div>
 </div>
 
-<div class="topics mb-120">
+<div class="topics pb-section">
 	<div class="container">
+		<h2 class="section-title category-content-inner h2">Choose a category</h2>
 		<div class="sample-categories">
 			<?php echo do_shortcode('[a-z-listing display="terms" taxonomy="category"]'); ?>
 		</div>
 	</div>
 </div>
 
-<div class="category-content mb-section">
+<div class="category-content pb-section">
 	<div class="category-content-inner">
 		<h2 class="section-title">Best Research Paper Examples</h2>
 		<div class="content-mask">
@@ -120,7 +121,7 @@ add_filter('the_title', 'highlight_results');
 	</div>
 </div>
 
-<div class="most-popular mb-section">
+<div class="most-popular pb-section">
 	<div class="container">
 		<div class="block-title h2 section-title">Most Popular</div>
 		<div class="most-popular-items">
@@ -131,7 +132,7 @@ add_filter('the_title', 'highlight_results');
 	</div>
 </div>
 
-<div class="last-added mb-section">
+<div class="last-added pb-section">
 	<div class="block-title h2 section-title">Last Added</div>
 	<div class="last-added-items">
 		<div class="owl-last-added">
@@ -152,6 +153,20 @@ add_filter('the_title', 'highlight_results');
 
 					endif;
 					?>
+		</div>
+	</div>
+</div>
+
+<div class='container  pb-section'>
+	<div class='cta'>
+		<div class='cta__content'>
+			<div class="cta__title poppins-bold">Cross that paper off your list</div>
+			<p>Secure the top grades, with vetted experts at your fingertips.</p>
+			<div class='cta__btns'>
+				<a href="/manage/signup" rel="nofollow" class="main-link">Write My Paper</a>
+				<a href="/manage/login" rel="nofollow" class="secondary-link">
+					View Sample</a>
+			</div>
 		</div>
 	</div>
 </div>
