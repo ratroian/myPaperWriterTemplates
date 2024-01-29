@@ -71,6 +71,7 @@ get_header();
 				</li>
 			</ul>
 		</div>
+
 		<div class="categories-cloud">
 			<div class="h4 title">Categories</div>
 			<div class="categories-cloud-inner">
@@ -96,6 +97,84 @@ get_header();
 			</div>
 
 		</div>
+		<div class="calc-wrap">
+			<div class="h4 title">Get a Price Quote</div>
+			<div class="calculator">
+				<div class="services flex space-b">
+					<div class="service-type active h6">Writing</div>
+					<div class="service-type h6">Editing</div>
+					<div class="service-type h6">Other</div>
+				</div>
+				<div class="calc-body">
+					<div class="pp row">
+						<div class="visible-block flex column">
+							<p class="calc-description">Purpose</p>
+							<div class="select flex a-center space-b">
+								<span>Purpose</span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+									fill="none">
+									<path d="M2 4L6 8L10 4" stroke="#343939" />
+								</svg>
+							</div>
+						</div>
+						<div class="masked-block flex column gap" style="display: none;">
+							<p class="option active">High School</p>
+							<p class="option">College Freshman</p>
+							<p class="option">College Sophomore</p>
+							<p class="option">College Junior</p>
+							<p class="option">College Senior</p>
+							<p class="option">Master's</p>
+							<p class="option">PhD</p>
+							<p class="option">Business (Standard)</p>
+							<p class="option">Business (Premium)</p>
+						</div>
+					</div>
+					<div class="dl row">
+						<div class="visible-block flex column">
+							<p class="calc-description">Deadline</p>
+							<div class="select flex a-center space-b">
+								<span>Deadline</span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
+									fill="none">
+									<path d="M2 4L6 8L10 4" stroke="#343939" />
+								</svg>
+							</div>
+						</div>
+						<div class="masked-block flex column gap" style="display: none;">
+							<p class="option" data-dl="0">3-8 hours</p>
+							<p class="option" data-dl="1">9-12 hours</p>
+							<p class="option" data-dl="2">13-23 hours</p>
+							<p class="option" data-dl="3">1 day</p>
+							<p class="option" data-dl="4">2 days</p>
+							<p class="option" data-dl="5">3 days</p>
+							<p class="option" data-dl="6">4 days</p>
+							<p class="option" data-dl="7">5-6 days</p>
+							<p class="option" data-dl="8">7-8 days</p>
+							<p class="option active" data-dl="9">9-10 days</p>
+							<p class="option" data-dl="10">11-14 days</p>
+							<p class="option" data-dl="11">15+ days</p>
+						</div>
+					</div>
+					<div class="flex price-line space-b">
+						<div class="final flex no-shrink">
+							<p class="price no-shrink h4">$11.13</p>
+							<p class="descr">per 100 words</p>
+						</div>
+						<a class="secondary-link" href="/manage/signup" rel="nofollow"><span>Get
+								Started</span></a>
+					</div>
+				</div>
+				<div class="type-other flex column a-center" style="display: none;">
+					<div class="h6">We can cope with any task!</div>
+					<p class="descr">Explain what needs to be done - it can be anything - and your expert
+						will figure out the best solution for you.</p>
+					<a class="secondary-link" href="/manage/signup" rel="nofollow"><span>Get
+							Started</span></a>
+				</div>
+			</div>
+		</div>
+
+
 
 		<div class="search-bar">
 			<div div class="title">Search</div>
