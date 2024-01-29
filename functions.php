@@ -347,7 +347,12 @@ function wpse_ad_content( $content ) {
             $new_content = '';
                 for ( $i = 0; $i < count ( $content ); $i ++ ) {
                     if ( $i == $paragraphAfter ) {
-                    $new_content .= '<div class="search-banner"><div class="wrap-banner"><div class="inner-title">Your 20% discount here!</div><p>Use your promo and get a custom paper on <br><b>'. get_the_title() .'</b></p><a class="order" href="/manage/signup">Order Now</a></div><div class="promo">Promocode: <span>SAMPLES20</span><svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_441_2646)"> <path d="M9.99998 2.50098H1.5C0.671572 2.50098 0 3.17255 0 4.00098V12.501C0 13.3294 0.671572 14.001 1.5 14.001H9.99998C10.8284 14.001 11.5 13.3294 11.5 12.501V4.00098C11.5 3.17255 10.8284 2.50098 9.99998 2.50098Z" fill="white"/> <path d="M12.5 9.68561e-10H3.5C2.67605 -2.92959e-05 2.00633 0.66457 2 1.48849C2 1.4925 2 1.49599 2 1.5H10C11.38 1.50164 12.4984 2.61996 12.5 3.99999V12C12.504 12 12.5075 12 12.5115 12C13.3354 11.9937 14 11.3239 14 10.5V1.5C14 0.671572 13.3284 9.68561e-10 12.5 9.68561e-10Z" fill="white"/> </g> <defs> <clipPath id="clip0_441_2646"> <rect width="14" height="14" fill="white"/> </clipPath> </defs> </svg></div></div>';
+                    $new_content .= '<div class="search-banner3"><div class="wrap-banner"><div class="inner-title banner-title-article">Your 20% discount here!</div><p class="banner-content-article">Use your promo and get a custom paper on <br><b>'. get_the_title() .'</b></p><a class="main-link" href="/manage/signup">Order Now</a></div><div class="promo">Use code:
+
+ <span>HELLO100</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
+  <path d="M10.5 6.5H3C2.17275 6.5 1.5 7.17275 1.5 8V15.5C1.5 16.3273 2.17275 17 3 17H10.5C11.3273 17 12 16.3273 12 15.5V8C12 7.17275 11.3273 6.5 10.5 6.5Z" fill="#EE8253"/>
+  <path d="M15 2H7.5C7.10218 2 6.72064 2.15804 6.43934 2.43934C6.15804 2.72064 6 3.10218 6 3.5V5H12C12.3978 5 12.7794 5.15804 13.0607 5.43934C13.342 5.72064 13.5 6.10218 13.5 6.5V12.5H15C15.3978 12.5 15.7794 12.342 16.0607 12.0607C16.342 11.7794 16.5 11.3978 16.5 11V3.5C16.5 3.10218 16.342 2.72064 16.0607 2.43934C15.7794 2.15804 15.3978 2 15 2Z" fill="#EE8253"/>
+</svg> at checkout</div></div>';
                     }
             $new_content .= $content[$i] . "</p>";
             }
@@ -631,13 +636,13 @@ function wpflask_first_category_of_post() {
     if( $category[0] ) :
     ?>
 
-    <span class="first-category">
-        <a href="<?php echo esc_url( get_category_link( $category[0]->term_id ) ); ?>">
-            <?php echo esc_html( $category[0]->cat_name ); ?>
-        </a>
-    </span>
+<span class="first-category">
+	<a href="<?php echo esc_url( get_category_link( $category[0]->term_id ) ); ?>">
+		<?php echo esc_html( $category[0]->cat_name ); ?>
+	</a>
+</span>
 
-    <?php
+<?php
     endif;
 }
 
@@ -655,13 +660,14 @@ function highlight_results($text){
 
 function highlight_results_css() {
     ?>
-    <style>
-    .search-highlight {
-        background-color: #fae432;
-        font-weight: bold;
-        color: #000; }
-    </style>
-    <?php
+<style>
+.search-highlight {
+	background-color: #fae432;
+	font-weight: bold;
+	color: #000;
+}
+</style>
+<?php
 }
 add_action('wp_head','highlight_results_css');
 

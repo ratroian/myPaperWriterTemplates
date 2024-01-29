@@ -11,10 +11,10 @@
 
 <section class="no-results not-found">
 	<div class="no-result-words">
-	<div class="h5"><?php esc_html_e( 'Sorry we couldn\'t find any matches', 'mypaperwriter' ); ?></div>
+		<div class="h3"><?php esc_html_e( 'Sorry we couldn\'t find any matches', 'mypaperwriter' ); ?></div>
 
-	<div class="page-content">
-		<?php
+		<div class="page-content">
+			<?php
 		if ( is_home() && current_user_can( 'publish_posts' ) ) :
 
 			printf(
@@ -40,19 +40,20 @@
 		else :
 			?>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'mypaperwriter' ); ?></p>
+			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'mypaperwriter' ); ?>
+			</p>
 			<?php
 			get_search_form();
 
 		endif;
 		?>
-		<ul>
-			Search Tips
-			<li>Use different keywords</li>
-			<li>Double-check your spelling</li>
-			<li>Starting whith less specific - you can narrow your results letter</li>
-		</ul>
+			<p>Search Tips:</p>
+			<ul>
+
+				<li>Use different keywords</li>
+				<li>Double-check your spelling</li>
+				<li>Starting whith less specific - you can narrow your results letter</li>
+			</ul>
 		</div>
 	</div><!-- .page-content -->
-	<img src="<?php bloginfo('template_url'); ?>/img/tear.png" alt="">
 </section><!-- .no-results -->
