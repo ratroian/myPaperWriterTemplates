@@ -89,6 +89,7 @@ get_header();
 			echo "</div>";
 				$postcount++;
 				if($postcount==2){?>
+
 		<div class="search-banner3">
 			<div class="inner-title">Here is your topic!</div>
 			<p>We will write the topic for you if you can't find it among our "<?php the_archive_title() ?>"
