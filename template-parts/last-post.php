@@ -1,7 +1,4 @@
 <div class="last-added-item card">
-
-
-
 	<?php 
 			the_post();
 			echo"<div class='sample-preview'>";
@@ -21,6 +18,4 @@
 		</div>
 		<a class="secondary-link" href="<?php the_permalink() ?>">See More</a>
 	</div>
-
-
 </div>

@@ -231,14 +231,26 @@ for($i = 1; $i <= 9; $i++){
   if( ! empty( $post->post_title ) ) {
 ?>
 
-			<div class="related-sample">
-				<div class="related-sample-general">
-					<a href="<?php the_permalink() ?>" rel="bookmark"
-						title="<?php the_title(); ?>"><?php the_title(); ?></a>
-					<div class="related-sample-general-numbers"><?php bac_post_word_count(); ?> words |
-						<?php bac_post_pages_count();?> page(s)</div>
+			<div class="last-added-item card">
+				<?php 
+			the_post();
+			echo"<div class='sample-preview'>";
+			the_category();
+			echo "<div class='sample-views'>";
+			echo getPostViews(get_the_ID());
+			echo "</div></div>";
+			the_title( '<div class="h4 entry-wrapper"><a class="entry-title" href="'.esc_url( get_permalink() ).'">', '</a></div>' );
+			echo "<p>".wp_trim_words( get_the_content(), 50, '...' )."</p>"; ?>
+				<div class="sample-preview">
+
+					<div class="sample-numbers">
+						<span class="words-count">
+							<?php if(function_exists('bac_post_word_count')) { bac_post_word_count(); }?> words</span>
+						<span>|</span>
+						<span class="pages-count"><?php bac_post_pages_count(); ?> page(s)</span>
+					</div>
+					<a class="secondary-link" href="<?php the_permalink() ?>">See More</a>
 				</div>
-				<p><?php echo wp_trim_words(get_the_content(), 22); ?></p>
 			</div>
 			<?php
 } else {
@@ -255,14 +267,26 @@ if ( $recent_posts -> have_posts() ) :
 
     $recent_posts -> the_post();
     ?>
-			<div class="related-sample">
-				<div class="related-sample-general">
-					<a href="<?php the_permalink() ?>" rel="bookmark"
-						title="<?php the_title(); ?>"><?php the_title(); ?></a>
-					<div class="related-sample-general-numbers"><?php bac_post_word_count(); ?> words |
-						<?php bac_post_pages_count();?> page(s)</div>
+			<div class="last-added-item card">
+				<?php 
+			the_post();
+			echo"<div class='sample-preview'>";
+			the_category();
+			echo "<div class='sample-views'>";
+			echo getPostViews(get_the_ID());
+			echo "</div></div>";
+			the_title( '<div class="h4 entry-wrapper"><a class="entry-title" href="'.esc_url( get_permalink() ).'">', '</a></div>' );
+			echo "<p>".wp_trim_words( get_the_content(), 50, '...' )."</p>"; ?>
+				<div class="sample-preview">
+
+					<div class="sample-numbers">
+						<span class="words-count">
+							<?php if(function_exists('bac_post_word_count')) { bac_post_word_count(); }?> words</span>
+						<span>|</span>
+						<span class="pages-count"><?php bac_post_pages_count(); ?> page(s)</span>
+					</div>
+					<a class="secondary-link" href="<?php the_permalink() ?>">See More</a>
 				</div>
-				<p><?php echo wp_trim_words(get_the_content(), 22); ?></p>
 			</div>
 			<?php
     endwhile;
@@ -369,37 +393,29 @@ endif;
 <script>
 document.addEventListener("DOMContentLoaded", function() {
 	$('.owl-carousel').owlCarousel({
-		// autoplay: true,
-		margin: 21,
-		dots: false,
 		loop: true,
+		nav: false,
+		dots: true,
+		center: false,
 		navText: [
-			'<span><svg width="17" height="32" viewBox="0 0 17 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.358665 14.8749L14.9179 0.355957C15.3949 -0.119461 16.1672 -0.118661 16.6434 0.358417C17.1193 0.835433 17.1181 1.60816 16.641 2.08395L2.94835 15.7388L16.6415 29.3935C17.1185 29.8694 17.1197 30.6416 16.6439 31.1187C16.4052 31.3578 16.0925 31.4774 15.7797 31.4774C15.4678 31.4774 15.1563 31.3586 14.918 31.1211L0.358665 16.6025C0.128918 16.374 -3.8147e-06 16.0629 -3.8147e-06 15.7388C-3.8147e-06 15.4146 0.129287 15.1039 0.358665 14.8749Z" /></svg></span>',
-			'<span><svg width="17" height="32" viewBox="0 0 17 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.4471 14.7013L2.05779 0.351802C1.58634 -0.118066 0.82306 -0.117276 0.352402 0.354232C-0.117891 0.82568 -0.116675 1.58939 0.354833 2.05962L13.8876 15.555L0.354346 29.0504C-0.117101 29.5207 -0.118316 30.2839 0.351916 30.7554C0.587852 30.9918 0.896946 31.1099 1.20604 31.1099C1.51434 31.1099 1.82222 30.9925 2.05773 30.7578L16.4471 16.4087C16.6741 16.1828 16.8015 15.8754 16.8015 15.555C16.8015 15.2347 16.6738 14.9276 16.4471 14.7013Z" /></svg></span>'
+			'<span><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M25.6833 27.65L18.05 20L25.6834 12.35L23.3334 10L13.3334 20L23.3333 30L25.6833 27.65Z" fill="#EE8253"/></svg></span>',
+			'<span><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M14.3169 27.65L21.9502 20L14.3169 12.35L16.6669 10L26.6669 20L16.6669 30L14.3169 27.65Z" fill="#EE8253"/></svg></span>',
 		],
-		nav: true,
+		touchDrag: true,
+
+		items: 1,
 		responsive: {
-			0: {
-				items: 1.2,
-				stagePadding: 0,
+			768: {
+				margin: 20,
+				items: 2
 			},
-			360: {
-				items: 1,
-				stagePadding: 36.5,
-			},
-			680: {
-				items: 2,
-				stagePadding: 71.5,
-			},
-			1000: {
+			1280: {
+				margin: 20,
 				items: 3,
-				stagePadding: 45.5,
+				nav: true,
+				dots: false,
 			},
-			1320: {
-				items: 4,
-				loop: false,
-			},
-		}
+		},
 	});
 });
 </script>

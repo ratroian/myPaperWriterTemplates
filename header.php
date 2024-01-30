@@ -92,7 +92,8 @@
 				<nav class="menu">
 					<ul class="menu--left">
 						<li><a href="/how-it-works.htm" rel="nofollow" class="menu__link">How It Works</a></li>
-						<li><a href="#" onClick="return false;" class="menu__link dropdown-button">Services
+						<li class="nav-dropdown"><a href="#" onClick="return false;"
+								class="menu__link dropdown-button">Services
 								<span></span></a>
 							<ul class="dropdown">
 								<li><a href="/research-paper-help.htm" class="menu__link">Research paper help</a></li>

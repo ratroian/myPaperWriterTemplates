@@ -1,134 +1,161 @@
-<?php
-$post = get_post("6532");
-setup_postdata($post);
-?>
-<a class="most-popular-item card" href="<?php echo esc_url( get_permalink() ) ?>">
+<div class="card">
+	<div class="sample-preview">
+		<ul class="post-categories">
+			<li><a href="http://localhost/blog.ews/cancer/" rel="category tag">Cancer</a></li>
+		</ul>
+		<div class="sample-views">162 Views</div>
+	</div>
+	<div class="h4 entry-wrapper"><a class="entry-title"
+			href="http://localhost/blog.ews/integrative-medicine/">Integrative Medicine</a></div>
+	<p>Owing to the rising outcry of patients with cancer and their demand for attention, it is important to sort an
+		integrative medical care. Integrated medicine will come to bring about a better way to handle the crisis. This
+		includes making sure that the medical practitioners are satisfied, and the treatment...</p>
+	<div class="sample-preview">
 
-	<span class="h5 title"><?php the_title();?></span>
-	<p>
-		<?php
-echo wp_trim_words( get_the_content(), 15, '...' );
-wp_reset_postdata();
-?>
-	</p>
-</a>
+		<div class="sample-numbers">
+			<span class="words-count">
+				731 words</span>
+			<span>|</span>
+			<span class="pages-count">3 page(s)</span>
+		</div>
+		<a class="secondary-link" href="http://localhost/blog.ews/integrative-medicine/">See More</a>
+	</div>
+</div>
+<div class="card">
+	<div class="sample-preview">
+		<ul class="post-categories">
+			<li><a href="http://localhost/blog.ews/cancer/" rel="category tag">Cancer</a></li>
+		</ul>
+		<div class="sample-views">162 Views</div>
+	</div>
+	<div class="h4 entry-wrapper"><a class="entry-title"
+			href="http://localhost/blog.ews/integrative-medicine/">Integrative Medicine</a></div>
+	<p>Owing to the rising outcry of patients with cancer and their demand for attention, it is important to sort an
+		integrative medical care. Integrated medicine will come to bring about a better way to handle the crisis. This
+		includes making sure that the medical practitioners are satisfied, and the treatment...</p>
+	<div class="sample-preview">
 
-<?php
-$post = get_post("6541");
-setup_postdata($post);
-?>
-<a class="most-popular-item card" href="<?php echo esc_url( get_permalink() ) ?>">
+		<div class="sample-numbers">
+			<span class="words-count">
+				731 words</span>
+			<span>|</span>
+			<span class="pages-count">3 page(s)</span>
+		</div>
+		<a class="secondary-link" href="http://localhost/blog.ews/integrative-medicine/">See More</a>
+	</div>
+</div>
+<div class="card">
+	<div class="sample-preview">
+		<ul class="post-categories">
+			<li><a href="http://localhost/blog.ews/cancer/" rel="category tag">Cancer</a></li>
+		</ul>
+		<div class="sample-views">162 Views</div>
+	</div>
+	<div class="h4 entry-wrapper"><a class="entry-title"
+			href="http://localhost/blog.ews/integrative-medicine/">Integrative Medicine</a></div>
+	<p>Owing to the rising outcry of patients with cancer and their demand for attention, it is important to sort an
+		integrative medical care. Integrated medicine will come to bring about a better way to handle the crisis. This
+		includes making sure that the medical practitioners are satisfied, and the treatment...</p>
+	<div class="sample-preview">
 
-	<span class="h5 title"><?php the_title();?></span>
-	<p>
-		<?php
-echo wp_trim_words( get_the_content(), 15, '...' );
-wp_reset_postdata();
-?>
-	</p>
-</a>
+		<div class="sample-numbers">
+			<span class="words-count">
+				731 words</span>
+			<span>|</span>
+			<span class="pages-count">3 page(s)</span>
+		</div>
+		<a class="secondary-link" href="http://localhost/blog.ews/integrative-medicine/">See More</a>
+	</div>
+</div>
+<div class="card">
+	<div class="sample-preview">
+		<ul class="post-categories">
+			<li><a href="http://localhost/blog.ews/cancer/" rel="category tag">Cancer</a></li>
+		</ul>
+		<div class="sample-views">162 Views</div>
+	</div>
+	<div class="h4 entry-wrapper"><a class="entry-title"
+			href="http://localhost/blog.ews/integrative-medicine/">Integrative Medicine</a></div>
+	<p>Owing to the rising outcry of patients with cancer and their demand for attention, it is important to sort an
+		integrative medical care. Integrated medicine will come to bring about a better way to handle the crisis. This
+		includes making sure that the medical practitioners are satisfied, and the treatment...</p>
+	<div class="sample-preview">
 
-<?php
-$post = get_post("3508");
-setup_postdata($post);
-?>
-<a class="most-popular-item card" href="<?php echo esc_url( get_permalink() ) ?>">
+		<div class="sample-numbers">
+			<span class="words-count">
+				731 words</span>
+			<span>|</span>
+			<span class="pages-count">3 page(s)</span>
+		</div>
+		<a class="secondary-link" href="http://localhost/blog.ews/integrative-medicine/">See More</a>
+	</div>
+</div>
+<div class="card">
+	<div class="sample-preview">
+		<ul class="post-categories">
+			<li><a href="http://localhost/blog.ews/cancer/" rel="category tag">Cancer</a></li>
+		</ul>
+		<div class="sample-views">162 Views</div>
+	</div>
+	<div class="h4 entry-wrapper"><a class="entry-title"
+			href="http://localhost/blog.ews/integrative-medicine/">Integrative Medicine</a></div>
+	<p>Owing to the rising outcry of patients with cancer and their demand for attention, it is important to sort an
+		integrative medical care. Integrated medicine will come to bring about a better way to handle the crisis. This
+		includes making sure that the medical practitioners are satisfied, and the treatment...</p>
+	<div class="sample-preview">
 
-	<span class="h5 title"><?php the_title();?></span>
-	<p>
-		<?php
-echo wp_trim_words( get_the_content(), 15, '...' );
-wp_reset_postdata();
-?>
-	</p>
-</a>
+		<div class="sample-numbers">
+			<span class="words-count">
+				731 words</span>
+			<span>|</span>
+			<span class="pages-count">3 page(s)</span>
+		</div>
+		<a class="secondary-link" href="http://localhost/blog.ews/integrative-medicine/">See More</a>
+	</div>
+</div>
+<div class="card">
+	<div class="sample-preview">
+		<ul class="post-categories">
+			<li><a href="http://localhost/blog.ews/cancer/" rel="category tag">Cancer</a></li>
+		</ul>
+		<div class="sample-views">162 Views</div>
+	</div>
+	<div class="h4 entry-wrapper"><a class="entry-title"
+			href="http://localhost/blog.ews/integrative-medicine/">Integrative Medicine</a></div>
+	<p>Owing to the rising outcry of patients with cancer and their demand for attention, it is important to sort an
+		integrative medical care. Integrated medicine will come to bring about a better way to handle the crisis. This
+		includes making sure that the medical practitioners are satisfied, and the treatment...</p>
+	<div class="sample-preview">
 
-<?php
-$post = get_post("2769");
-setup_postdata($post);
-?>
-<a class="most-popular-item card" href="<?php echo esc_url( get_permalink() ) ?>">
+		<div class="sample-numbers">
+			<span class="words-count">
+				731 words</span>
+			<span>|</span>
+			<span class="pages-count">3 page(s)</span>
+		</div>
+		<a class="secondary-link" href="http://localhost/blog.ews/integrative-medicine/">See More</a>
+	</div>
+</div>
+<div class="card">
+	<div class="sample-preview">
+		<ul class="post-categories">
+			<li><a href="http://localhost/blog.ews/cancer/" rel="category tag">Cancer</a></li>
+		</ul>
+		<div class="sample-views">162 Views</div>
+	</div>
+	<div class="h4 entry-wrapper"><a class="entry-title"
+			href="http://localhost/blog.ews/integrative-medicine/">Integrative Medicine</a></div>
+	<p>Owing to the rising outcry of patients with cancer and their demand for attention, it is important to sort an
+		integrative medical care. Integrated medicine will come to bring about a better way to handle the crisis. This
+		includes making sure that the medical practitioners are satisfied, and the treatment...</p>
+	<div class="sample-preview">
 
-	<span class="h5 title"><?php the_title();?></span>
-	<p>
-		<?php
-echo wp_trim_words( get_the_content(), 15, '...' );
-wp_reset_postdata();
-?>
-	</p>
-</a>
-
-<?php
-$post = get_post("1463");
-setup_postdata($post);
-?>
-<a class="most-popular-item card" href="<?php echo esc_url( get_permalink() ) ?>">
-
-	<span class="h5 title"><?php the_title();?></span>
-	<p>
-		<?php
-echo wp_trim_words( get_the_content(), 15, '...' );
-wp_reset_postdata();
-?>
-	</p>
-</a>
-
-<?php
-$post = get_post("2767");
-setup_postdata($post);
-?>
-<a class="most-popular-item card" href="<?php echo esc_url( get_permalink() ) ?>">
-
-	<span class="h5 title"><?php the_title();?></span>
-	<p>
-		<?php
-echo wp_trim_words( get_the_content(), 15, '...' );
-wp_reset_postdata();
-?>
-	</p>
-</a>
-
-<?php
-$post = get_post("1254");
-setup_postdata($post);
-?>
-<a class="most-popular-item card" href="<?php echo esc_url( get_permalink() ) ?>">
-
-	<span class="h5 title"><?php the_title();?></span>
-	<p>
-		<?php
-echo wp_trim_words( get_the_content(), 15, '...' );
-wp_reset_postdata();
-?>
-	</p>
-</a>
-
-<?php
-$post = get_post("4816");
-setup_postdata($post);
-?>
-<a class="most-popular-item card" href="<?php echo esc_url( get_permalink() ) ?>">
-
-	<span class="h5 title"><?php the_title();?></span>
-	<p>
-		<?php
-echo wp_trim_words( get_the_content(), 15, '...' );
-wp_reset_postdata();
-?>
-	</p>
-</a>
-
-<?php
-$post = get_post("8374");
-setup_postdata($post);
-?>
-<a class="most-popular-item card" href="<?php echo esc_url( get_permalink() ) ?>">
-
-	<span class="h5 title"><?php the_title();?></span>
-	<p>
-		<?php
-echo wp_trim_words( get_the_content(), 15, '...' );
-wp_reset_postdata();
-?>
-	</p>
-</a>
+		<div class="sample-numbers">
+			<span class="words-count">
+				731 words</span>
+			<span>|</span>
+			<span class="pages-count">3 page(s)</span>
+		</div>
+		<a class="secondary-link" href="http://localhost/blog.ews/integrative-medicine/">See More</a>
+	</div>
+</div>
