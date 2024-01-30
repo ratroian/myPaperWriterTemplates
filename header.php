@@ -92,53 +92,30 @@
 				<nav class="menu">
 					<ul class="menu--left">
 						<li><a href="/how-it-works.htm" rel="nofollow" class="menu__link">How It Works</a></li>
-						<li class="nav-dropdown"><a href="#" onClick="return false;"
-								class="menu__link dropdown-button">Services
+						<li class="nav-dropdown"><a href="#" class="menu__link dropdown-button">Services
 								<span></span></a>
-							<ul class="dropdown">
-								<li><a href="/research-paper-help.htm" class="menu__link">Research paper help</a></li>
-								<li><a href="/economic-paper-writing-service.htm" class="menu__link">Economic research
-										papers</a></li>
-								<li><a href="/management-research-papers.htm" class="menu__link">Management paper
-										writing</a></li>
-								<li><a href="/sociology-paper-writing-services.htm" class="menu__link">Sociology
-										papers</a></li>
-								<li><a href="/analysis-paper.htm" class="menu__link">Analysis papers</a></li>
-								<li><a href="/editing-service.htm" class="menu__link">Editing service</a></li>
-								<li><a href="/proofreading-service.htm" class="menu__link">Proofreading service</a></li>
-								<li><a href="/papers-for-money.htm" class="menu__link">Writing papers for money</a></li>
-								<li><a href="/action-research-paper-writing.htm" class="menu__link">Action term
-										paper</a></li>
-								<li><a href="/accounting-research-paper-writing.htm" class="menu__link">Accounting term
-										papers</a></li>
-								<li><a href="/business-papers-writing-service.htm" class="menu__link">Business term
-										papers</a></li>
-								<li><a href="/essay-writing-service.htm" class="menu__link">Essay writing service</a>
-								</li>
-								<li><a href="/english-term-papers.htm" class="menu__link">English term papers</a></li>
-								<li><a href="/personal-statement-writing.htm" class="menu__link">Personal statement</a>
-								</li>
-								<li><a href="/research-proposal-writing.htm" class="menu__link">Research proposal</a>
-								</li>
-								<li><a href="/research-paper-writing-service.htm" class="menu__link">Research paper
-										writing service</a></li>
-								<li><a href="/custom-college-papers.htm" class="menu__link">Custom college papers</a>
-								</li>
-								<li><a href="/term-paper-writing-service.htm" class="menu__link">Term paper writing
-										service</a></li>
-								<li><a href="/write-my-college-paper.htm" class="menu__link">Write my college paper</a>
-								</li>
-								<li><a href="/write-my-term-paper.htm" class="menu__link">Write my term paper</a></li>
-								<li><a href="/write-my-research-paper.htm" class="menu__link">Write my research
-										paper</a></li>
-								<li><a href="/pay-someone.htm" class="menu__link">Pay someone to write my paper</a></li>
-								<li><a href="/write-my-essay.htm" class="menu__link">Write my essay</a></li>
-								<li><a href="/rewrite-my-paper.htm" class="menu__link">Rewrite my paper</a></li>
-								<li><a href="/write-my-case-study.htm" class="menu__link">Write my case study</a></li>
-								<li><a href="/write-my-business-plan.htm" class="menu__link">Write my business plan</a>
-								</li>
-
-							</ul>
+							<div class="dropdown-menu">
+								<div class='menu__link-wrapper'>
+									<p class='menu__link-title'>Services</p>
+									<a href="#" class="menu__link">Buy Research Paper</a>
+									<a href="#" class="menu__link">Buy Term Paper</a>
+									<a href="#" class="menu__link">Cheap Research Paper</a>
+									<a href="#" class="menu__link">Term Papers for Sale</a>
+								</div>
+								<div class='menu__link-wrapper'>
+									<p class='menu__link-title'>Disciplines</p>
+									<a href="#" class="menu__link">Write My Economics Paper</a>
+									<a href="#" class="menu__link">Write My Psychology Paper</a>
+								</div>
+								<div class='menu__link-wrapper'>
+									<p class='menu__link-title'>Offers</p>
+									<a href="#" class="menu__link">Buy Thesis</a>
+									<a href="#" class="menu__link">Coursework Help</a>
+									<a href="#" class="menu__link">Custom Dissertation</a>
+									<a href="#" class="menu__link">Write My Case Study</a>
+									<a href="#" class="menu__link">Research Proposal Writing</a>
+								</div>
+							</div>
 						</li>
 						<li><a href="/prices.htm" rel="nofollow" class="menu__link">Pricing</a></li>
 						<li><a href="/about.htm" rel="nofollow" class="menu__link">About</a></li>
@@ -166,54 +143,38 @@
 				<div class="mobile-menu" style="display: block;">
 					<ul class="menu--right top-links">
 						<li>
-
 							<a href="/manage/login" rel="nofollow" class="link">Sign In</a>
 						</li>
 						<li><a href="/manage/signup" rel="nofollow" class="button-small--light">Order Now</a></li>
 					</ul>
 					<ul class="menu">
 						<li><a href="/how-it-works.htm" class="menu__link">How It Works</a></li>
-						<li><a href="#" onclick="return false;" class="menu__link dropdown-button">Services
+						<li class="mobile-dropdown-btn"><a href="#" class="menu__link dropdown-button"
+								id="menu-services-mob">Services
 								<span></span></a>
-							<ul class="dropdown">
-								<li><a href="/research-paper-help.htm" class="menu__link">Research paper help</a></li>
-								<li><a href="/economic-paper-writing-service.htm" class="menu__link">Economic research
-										papers</a></li>
-								<li><a href="/management-research-papers.htm" class="menu__link">Management paper
-										writing</a></li>
-								<li><a href="/sociology-paper-writing-services.htm" class="menu__link">Sociology
-										papers</a></li>
-								<li><a href="/analysis-paper.htm" class="menu__link">Analysis papers</a></li>
-								<li><a href="/editing-service.htm" class="menu__link">Editing service</a></li>
-								<li><a href="/proofreading-service.htm" class="menu__link">Proofreading service</a></li>
-								<li><a href="/papers-for-money.htm" class="menu__link">Writing papers for money</a></li>
-								<li><a href="/action-research-paper-writing.htm" class="menu__link">Action term
-										paper</a></li>
-								<li><a href="/accounting-research-paper-writing.htm" class="menu__link">Accounting term
-										papers</a></li>
-								<li><a href="/business-papers-writing-service.htm" class="menu__link">Business term
-										papers</a></li>
-								<li><a href="/essay-writing-service.htm" class="menu__link">Essay writing service</a>
-								</li>
-								<li><a href="/english-term-papers.htm" class="menu__link">English term papers</a></li>
-								<li><a href="/personal-statement-writing.htm" class="menu__link">Personal statement</a>
-								</li>
-								<li><a href="/research-proposal-writing.htm" class="menu__link">Research proposal</a>
-								</li>
-								<li><a href="/research-paper-writing-service.htm" class="menu__link">Research paper
-										writing service</a></li>
-								<li><a href="/custom-college-papers.htm" class="menu__link">Custom college papers</a>
-								</li>
-								<li><a href="/term-paper-writing-service.htm" class="menu__link">Term paper writing
-										service</a></li>
-								<li><a href="/write-my-college-paper.htm" class="menu__link">Write my college paper</a>
-								</li>
-								<li><a href="/write-my-term-paper.htm" class="menu__link">Write my term paper</a></li>
-								<li><a href="/write-my-research-paper.htm" class="menu__link">Write my research
-										paper</a></li>
-								<li><a href="/pay-someone.htm" class="menu__link">Pay someone to write my paper</a></li>
-								<li><a href="/write-my-essay.htm" class="menu__link">Write my essay</a></li>
-							</ul>
+							<div class="dropdown-menu-mobile">
+								<button class="dropdown-menu-mobile__back" id="menu-back-mob">Menu</button>
+								<div class='menu__link-wrapper'>
+									<p class='menu__link-title'>Services</p>
+									<a href="#" class="menu__link">Buy Research Paper</a>
+									<a href="#" class="menu__link">Buy Term Paper</a>
+									<a href="#" class="menu__link">Cheap Research Paper</a>
+									<a href="#" class="menu__link">Term Papers for Sale</a>
+								</div>
+								<div class='menu__link-wrapper'>
+									<p class='menu__link-title'>Disciplines</p>
+									<a href="#" class="menu__link">Write My Economics Paper</a>
+									<a href="#" class="menu__link">Write My Psychology Paper</a>
+								</div>
+								<div class='menu__link-wrapper'>
+									<p class='menu__link-title'>Offers</p>
+									<a href="#" class="menu__link">Buy Thesis</a>
+									<a href="#" class="menu__link">Coursework Help</a>
+									<a href="#" class="menu__link">Custom Dissertation</a>
+									<a href="#" class="menu__link">Write My Case Study</a>
+									<a href="#" class="menu__link">Research Proposal Writing</a>
+								</div>
+							</div>
 						</li>
 						<li><a href="/prices.htm" rel="nofollow" class="menu__link">Pricing</a></li>
 						<li><a href="/about.htm" rel="nofollow" class="menu__link">About</a></li>
