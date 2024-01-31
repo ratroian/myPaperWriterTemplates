@@ -311,7 +311,7 @@ endif;
 	</div>
 </div>
 
-<div class="plagiarism-banner">
+<div class="plagiarism-banner hidden">
 	<div class="search-banner3">
 		<div class="wrap-banner">
 			<div class="inner-title banner-title-article">Feeling lucky</br> <span>Get 20% Off</span></div>

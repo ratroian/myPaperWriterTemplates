@@ -121,7 +121,7 @@ add_filter('the_title', 'highlight_results');
 	</div>
 </div>
 
-<div class="most-popular pb-section">
+<div class="most-popular">
 	<div class="container">
 		<div class="block-title h2 section-title">Most Popular</div>
 		<div class="most-popular-items">
