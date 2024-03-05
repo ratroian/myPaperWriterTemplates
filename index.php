@@ -22,7 +22,8 @@ add_filter('the_title', 'highlight_results');
 <div class="main-search main-search--home">
 	<div class="container search-inner">
 		<div class="search-content">
-			<h1 class="search-title">Best Research Paper Samples That Will Inspire You</h1>
+			<h1 class="search-title">Best Research Paper Samples That Will Inspire You
+			</h1>
 			<p class="search-subtitle">Read research paper, term paper and essay samples written by our professional
 				writers and feel free to use them as a source of inspiration and ideas for your own academic work.</p>
 			<div class="search-search">
