@@ -10,9 +10,9 @@
 get_header();
 ?>
 
-	<section class="no-results page-404 not-found">
-		<div class="no-result-words">
-		<div class="h5"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'mypaperwriter' ); ?></div>
+<section class="no-results page-404 not-found container">
+	<div class="no-result-words">
+		<div class="h5"><?php esc_html_e( 'Sorry', 'mypaperwriter' ); ?></div>
 
 		<div class="page-content">
 			<?php
@@ -34,23 +34,38 @@ get_header();
 			elseif ( is_search() ) :
 				?>
 
-				<p><?php esc_html_e( 'Please try again with some different keywords.', 'mypaperwriter' ); ?></p>
+			<p><?php esc_html_e( 'Please try again with some different keywords.', 'mypaperwriter' ); ?></p>
 
-				<?php
+			<?php
 
 			else :
 				?>
 
-				<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'mypaperwriter' ); ?></p>
-				<?php
+			<p><?php esc_html_e( 'The page you’re looking for doesn’t exist.', 'mypaperwriter' ); ?>
+			</p>
+			<?php
 			endif;
 			?>
-			</div>
-		</div><!-- .page-content -->
-		<img src="<?php bloginfo('template_url'); ?>/img/tear.png" alt="">
-	</section><!-- .no-results -->
+		</div>
+		<a href="/samples/" rel="nofollow" class="main-link">Get Back to the Homepage</a>
+	</div><!-- .page-content -->
+</section><!-- .no-results -->
 
-		</div><!-- #primary -->
+<div class='container  pb-section'>
+	<div class='cta'>
+		<div class='cta__content'>
+			<div class="cta__title poppins-bold">Cross that paper off your list</div>
+			<p>Secure the top grades, with vetted experts at your fingertips.</p>
+			<div class='cta__btns'>
+				<a href="/manage/signup" rel="nofollow" class="main-link">Write My Paper</a>
+				<a href="/manage/login" rel="nofollow" class="secondary-link">
+					View Sample</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div><!-- #primary -->
 
 <?php
 get_footer();
