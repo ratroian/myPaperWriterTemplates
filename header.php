@@ -92,9 +92,11 @@
 				<nav class="menu">
 					<ul class="menu--left">
 						<li><a href="/how-it-works.htm" rel="nofollow" class="menu__link">How It Works</a></li>
-						<li class="nav-dropdown"><a href="#" class="menu__link dropdown-button">Services
+						<li class="nav-dropdown"><a href="#" class="menu__link dropdown-button"
+								id="menu-services-mob">Services
 								<span></span></a>
 							<div class="dropdown-menu">
+								<button class="dropdown-menu-mobile__back" id="menu-back">Menu</button>
 								<div class='menu__link-wrapper'>
 									<p class='menu__link-title'>Services</p>
 									<a href="#" class="menu__link">Buy Research Paper</a>
@@ -140,47 +142,7 @@
 						</li>
 					</ul>
 				</nav>
-				<div class="mobile-menu" style="display: block;">
-					<ul class="menu--right top-links">
-						<li>
-							<a href="/manage/login" rel="nofollow" class="link">Sign In</a>
-						</li>
-						<li><a href="/manage/signup" rel="nofollow" class="button-small--light">Order Now</a></li>
-					</ul>
-					<ul class="menu">
-						<li><a href="/how-it-works.htm" class="menu__link">How It Works</a></li>
-						<li class="mobile-dropdown-btn"><a href="#" class="menu__link dropdown-button"
-								id="menu-services-mob">Services
-								<span></span></a>
-							<div class="dropdown-menu-mobile">
-								<button class="dropdown-menu-mobile__back" id="menu-back-mob">Menu</button>
-								<div class='menu__link-wrapper'>
-									<p class='menu__link-title'>Services</p>
-									<a href="#" class="menu__link">Buy Research Paper</a>
-									<a href="#" class="menu__link">Buy Term Paper</a>
-									<a href="#" class="menu__link">Cheap Research Paper</a>
-									<a href="#" class="menu__link">Term Papers for Sale</a>
-								</div>
-								<div class='menu__link-wrapper'>
-									<p class='menu__link-title'>Disciplines</p>
-									<a href="#" class="menu__link">Write My Economics Paper</a>
-									<a href="#" class="menu__link">Write My Psychology Paper</a>
-								</div>
-								<div class='menu__link-wrapper'>
-									<p class='menu__link-title'>Offers</p>
-									<a href="#" class="menu__link">Buy Thesis</a>
-									<a href="#" class="menu__link">Coursework Help</a>
-									<a href="#" class="menu__link">Custom Dissertation</a>
-									<a href="#" class="menu__link">Write My Case Study</a>
-									<a href="#" class="menu__link">Research Proposal Writing</a>
-								</div>
-							</div>
-						</li>
-						<li><a href="/prices.htm" rel="nofollow" class="menu__link">Pricing</a></li>
-						<li><a href="/about.htm" rel="nofollow" class="menu__link">About</a></li>
-						<li><a href="/contact.htm" rel="nofollow" class="menu__link">Contact</a></li>
-					</ul>
-				</div>
+
 			</div>
 		</header>
 

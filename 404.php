@@ -51,8 +51,8 @@ get_header();
 	</div><!-- .page-content -->
 </section><!-- .no-results -->
 
-<div class='container  pb-section'>
-	<div class='cta'>
+<div class='container pb-section'>
+	<div class='cta '>
 		<div class='cta__content'>
 			<div class="cta__title poppins-bold">Cross that paper off your list</div>
 			<p>Secure the top grades, with vetted experts at your fingertips.</p>
